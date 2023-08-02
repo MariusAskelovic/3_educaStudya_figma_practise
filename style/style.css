@@ -1,8 +1,16 @@
 @import 'reset.css';
 
+/* GLOBAL */
 .caps {
   text-transform: uppercase;
 }
+.paragraph {
+  color: #525d73;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* ^^ GLOBAL ABOVE ^^ */
 
 /* Header Section */
 .header {
@@ -11,6 +19,7 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 25px;
+  padding-bottom: 100px;
   align-items: center;
   background-color: #f3f8ff;
 }
@@ -65,4 +74,68 @@
   padding: 10px 36px;
   color: #04a8ff;
   border-radius: 5px;
+}
+
+/* Intro section */
+/* Left part */
+.introSection {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.introSplit {
+  display: flex;
+  background-color: #f3f8ff;
+}
+.introLeft {
+  max-width: 50%;
+  margin-left: 145px;
+}
+.introTitle {
+  font-family: var(--font-two);
+  color: #00acff;
+  font-size: 50px;
+  margin-bottom: 16px;
+}
+.introBigTxt {
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #292e37;
+  margin-bottom: 40px;
+}
+.introBigTxt span {
+  display: block;
+}
+.introPara {
+  width: 388px;
+  margin-bottom: 40px;
+}
+.btnBlue,
+.btnPlay {
+  font-size: 14px;
+  font-weight: 600;
+}
+.btnBlue {
+  background: linear-gradient(90deg, #45bfff 26.58%, #00a7ff 100%);
+  height: 62px;
+  width: 190px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-right: 23px;
+}
+.introBtns {
+  display: flex;
+  justify-content: space-between;
+}
+.playBtnBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+.btnPlay {
+  color: #19b0ff;
+  background: transparent;
+  border: none;
+  height: 62px;
+  margin-left: 16px;
 }
