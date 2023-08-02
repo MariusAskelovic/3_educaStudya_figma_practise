@@ -1,0 +1,68 @@
+@import 'reset.css';
+
+.caps {
+  text-transform: uppercase;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  align-items: center;
+  background-color: #f3f8ff;
+}
+.headerBlock {
+  margin: 30px;
+}
+.headerLogo {
+  height: 40px;
+}
+.headerUl {
+  display: flex;
+  align-items: center;
+}
+.headerLink {
+  font-size: 14px;
+  font-weight: 500;
+  color: #424d65;
+  padding-right: 36px;
+}
+.liSmaller {
+  font-size: 11px;
+  font-weight: 500;
+  border: 1px solid #d0e5f2;
+  border-radius: 25px;
+  padding: 6px 10px 6px 6px;
+}
+.liSmaller span {
+  font-size: 12px;
+  background: var(--orange);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 25px;
+  margin-right: 2px;
+}
+.loginBtn,
+.signinBtn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #424d65;
+}
+.loginBtn {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #04a8ff;
+  margin-right: 22px;
+  width: fit-content;
+  padding: 0 0 4px;
+}
+.signinBtn {
+  background: #def4fe;
+  border: none;
+  padding: 10px 36px;
+  color: #04a8ff;
+  border-radius: 5px;
+}
